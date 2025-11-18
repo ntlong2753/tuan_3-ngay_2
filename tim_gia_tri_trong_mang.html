@@ -8,14 +8,14 @@
     <script>
         let x = parseInt(prompt('Điền số...'));
         numbers=[10, 20, 30, 40, 50, 60, 70,80, 90, 100];
-         let index = -1
+         let ktra = -1
         for (let i = 0; i < numbers.length; i++) {
             if (x === numbers[i]) {
-                index = i;
+                ktra = i;
             }
         }
-        if(index > -1){
-            alert("Value " + x + " found at " + index);
+        if(ktra > -1){
+            alert("Value " + x + " found at " + ktra);
         }
         else{
             alert("Value " + x + " not found");
