@@ -3,3 +3,4 @@ languages =[
     'PHP',
     'Ruby',
 ]
+console.log(languages.length)
